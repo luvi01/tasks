@@ -123,6 +123,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql', 'NAME': '', 'USER': '', 'PASSWORD': '', 'HOST': '', 'PORT': '', } }
-DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql', 'NAME': '', 'USER': '', 'PASSWORD': '', 'HOST': '', 'PORT': '', } }
-DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql', 'NAME': 'o', 'USER': 'o', 'PASSWORD': 'o', 'HOST': 'jj', 'PORT': 'mm', } }
