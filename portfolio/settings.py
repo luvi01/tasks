@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tasks',
-        'USER': 'cloud',
-        'PASSWORD': 'cloud',
-        'HOST': 'node1',
-        'PORT': '5432',
+        'NAME': 'PLACE_NAME',
+        'USER': 'PLACE_USER',
+        'PASSWORD': 'PLACE_PASSWORD',
+        'HOST': 'PLACE_HOST',
+        'PORT': 'PLACE_PORT',
     }
 }
 
@@ -123,3 +123,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql', 'NAME': '', 'USER': '', 'PASSWORD': '', 'HOST': '', 'PORT': '', } }
+DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql', 'NAME': '', 'USER': '', 'PASSWORD': '', 'HOST': '', 'PORT': '', } }
+DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql', 'NAME': 'o', 'USER': 'o', 'PASSWORD': 'o', 'HOST': 'jj', 'PORT': 'mm', } }
